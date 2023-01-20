@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Project 2</title>
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800&family=Righteous&display=swap" rel="stylesheet">
+    <!-- STYLE SHEETS -->
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+</head>
+<body>
+
+    <!-------- HEADER START ------->
+    <header class="header">
+        <div class="logo">
+            <h1>MOVIES</h1>
+        </div>
+
+        <form id="search-form">
+            <input type="text" id="search-term" class="search" placeholder="Search movies..">
+            <button type="submit" class="btn" id="submit-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+    </header>
+
+    <!-------- MOST POPULAR ------->
+    <section class="swiper mySwiper">
+        <div class="swiper-wrapper" id="slides">
+            
+        </div>
+    </section>
+    <!-------- SLIDER ------->
+    <div class="slider-btns">
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+
+
+    <!-------- lATEST MOVIES ------->
+    <section class="latest-movies">
+        <div class="latest-heading">
+            <h1>LATEST MOVIES</h1>
+        </div>
+
+            <div class="post-container" id="latestGrid">
+
+                <!-- <div class="post-box">
+                    <div class="post-img">
+                        <img src="https://images.unsplash.com/photo-1531259683007-016a7b628fc3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="">
+                        <span class="rating">8.0</span>
+                    </div>
+                    <div class="overview">
+                        <h3 class="overview-title">MOVIE TITLE</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro modi dolore, ipsam error ipsa minus. Delectus reiciendis hic a, in alias est esse rem officiis accusantium doloremque. Fuga, tempore dignissimos!
+                        </p>
+                    </div>
+                </div> -->
+
+            </div>
+
+    </section>
+
+
+
+    <script src="./js/index.js"></script>
+    <script src="./js/swiper.bundle.min.js"></script>
+    <script src="./js/swiperInitialization.js"></script>
+</body>
+</html>
+
+
+
+
+<!-- template for banner movies / most popular movies  -->
+            <!-- <div class="swiper-slide">
+                <div class="image-container">
+                    <img src="" alt="image">
+                    <span class="rating">8.0</span>
+                </div>
+                <h3 class="active-title">MOVIE TITLE</h3>
+                <div class="overview">
+                    <h3 class="overview-title">MOVIE TITLE</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro modi dolore, ipsam error ipsa minus. Delectus reiciendis hic a, in alias est esse rem officiis accusantium doloremque. Fuga, tempore dignissimos!
+                    </p>
+                </div>
+            </div> -->
+
+<!-- template for latest movies  -->
+            <!-- <div class="post-box">
+                    <div class="post-img">
+                        <img src="https://images.unsplash.com/photo-1531259683007-016a7b628fc3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="">
+                        <span class="rating">8.0</span>
+                    </div>
+                    <div class="overview">
+                        <h3 class="overview-title">MOVIE TITLE</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro modi dolore, ipsam error ipsa minus. Delectus reiciendis hic a, in alias est esse rem officiis accusantium doloremque. Fuga, tempore dignissimos!
+                        </p>
+                    </div>
+                </div> -->
